@@ -1,0 +1,7 @@
+.hero_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.hero_content, .hero_img{
+    width: 50%;
+}
