@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './header.css';
+// import DivitLogo from '../../images/DivitLogo.png';
 const nav__links = [
     {
         path:'#home',
@@ -28,10 +29,14 @@ const Header = () => {
    <header className="header">
         <div className="container">
             <div className="nav_wrapper">
+
+                {/* <div className="logo">
+                    <img src={DivitLogo} alt="divit-logo" />
+                </div> */}
                 <div className="logo">
                     <h2>Divit Data Solutions</h2>
-                    
                 </div>
+                
                 {/*===Navigation bar====*/}
                 <div className="navbar">
                     <ul className="menu">
