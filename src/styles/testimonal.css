@@ -10,14 +10,14 @@
     background: var(--testimonial-bg);
     padding: 40px 20px;
     border-radius: 0.5rem;
-}
-.slider_item p{
-    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer; 
 }
 
 .customer_details{
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 1rem;
 }
 .customer_img{
@@ -29,4 +29,9 @@
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+}
+.customer_name{
+    font-size:1.2rem;
+    color: white;
+    font-weight: 500;
 }

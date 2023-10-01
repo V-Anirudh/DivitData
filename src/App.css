@@ -3,7 +3,7 @@
 
 /* css variables */
 :root {
-  --primary-color: #ff9900;
+  --primary-color: #379cf6;;
   --heading-color: #fff;
   --btn-primary-bg: #379cf6;
   --btn-secondary-bg: #090238;
@@ -98,3 +98,20 @@ section{
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+.light-theme .counter{
+  background: var(--counter-section-bg);
+}
+.light-theme .secondary_btn{
+  border: 1px solid var(--primary-color);
+  color: #090238;
+  font-weight: 600;
+}
+.light-theme a{
+  font-weight: 500;
+}
+
+.light-theme .team_img{
+  background: #ddd;
+}
+

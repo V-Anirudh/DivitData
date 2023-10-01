@@ -48,3 +48,14 @@
     width: 33%;
     margin-top: -70px;
 }
+
+.light-theme .blog{
+    background: #effcff;
+}
+.light-theme .blog_item{
+    box-shadow: 5px 5px 15px -5px #999;
+}
+.light-theme .blog_item:nth-child(2){
+    border: 1px solid var(--primary-color);
+    box-shadow: #999;
+}

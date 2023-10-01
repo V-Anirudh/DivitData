@@ -6,6 +6,9 @@
 .hero_content, .hero_img{
     width: 50%;
 }
+.hero_img img{
+    width:100%
+}
 .hero_content{
     padding-top: 40px;
 }

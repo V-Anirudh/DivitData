@@ -40,8 +40,13 @@
     color:rgba(255, 255, 255, 0.637) ;
     display: flex;
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 0.7rem;
     font-size: 0.8rem;
+    cursor: pointer;
+}
+.light-theme .light_mode span{
+    color: #000;
+    font-weight: 500;
 }
 .header_shrink{
     width: 100%;

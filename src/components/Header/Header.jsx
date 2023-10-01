@@ -24,7 +24,7 @@ const nav__links = [
         display:'Blog'
     }
 ]   
-const Header = () => {
+const Header = ({theme, toggleTheme}) => {
   return (
    <header className="header">
         <div className="container">
@@ -51,8 +51,24 @@ const Header = () => {
                 </div>
                 {/*=====Light mode=====*/}
                 <div className="light_mode">
-                    <span>
-                        <i class="ri-sun-line">Light Mode</i>
+                    <input type="checkbox" class="checkbox" id="checkbox"/>
+                    <label for="checkbox" class="checkbox-label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <span class="ball"></span>
+                    </label>
+                    <span onClick={toggleTheme}>
+                        {
+                            theme === 'light-theme' ? (
+                            <span> 
+                                <i class="ri-moon-line"></i> Dark         
+                            </span> 
+                            ) : (
+                            <span>
+                                <i class="ri-sun-line"></i>Light
+                            </span>
+                            )
+                        }
                     </span>
                 </div>
             </div>
