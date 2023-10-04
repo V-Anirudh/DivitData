@@ -7,11 +7,7 @@ import team04 from '../../images/team-04.png'
 import team05 from '../../images/anirudhphot.png'
 
 const teamMembers = [
-    {
-        imgUrl: team05,
-        name: 'Anirudh Vallampatla',
-        position:'Full Stack Developer'
-    },
+
     {
         imgUrl: team02,
         name: 'Deepak Vallampatla',

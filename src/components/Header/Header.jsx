@@ -51,12 +51,12 @@ const Header = ({theme, toggleTheme}) => {
                 </div>
                 {/*=====Light mode=====*/}
                 <div className="light_mode">
-                    <input type="checkbox" class="checkbox" id="checkbox"/>
+                    {/* <input type="checkbox" class="checkbox" id="checkbox"/>
                     <label for="checkbox" class="checkbox-label">
                         <i class="fas fa-moon"></i>
                         <i class="fas fa-sun"></i>
                         <span class="ball"></span>
-                    </label>
+                    </label> */}
                     <span onClick={toggleTheme}>
                         {
                             theme === 'light-theme' ? (
